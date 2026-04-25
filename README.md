@@ -194,11 +194,11 @@ The live webcam window opens. Hold an object in front of the camera — the syst
 
 | Test Object | Classification | Result |
 |-------------|---------------|--------|
-| Paper sheet | Recyclable | ✅ Correct |
-| Cardboard | Recyclable | ✅ Correct |
-| Plastic bottle | Recyclable | ✅ Correct |
-| Mobile phone | E-Waste | ✅ Correct |
-| Non-recyclable wrapper | Non-Recyclable | ✅ Correct |
+| Paper sheet | Recyclable |  Correct |
+| Cardboard | Recyclable |  Correct |
+| Plastic bottle | Recyclable |  Correct |
+| Mobile phone | E-Waste |  Correct |
+| Non-recyclable wrapper | Non-Recyclable |  Correct |
 
 The **3-second stability window** was the single most impactful design decision — it eliminated false triggers that occurred in early testing when the model flickered between labels on edge-case objects.
 
