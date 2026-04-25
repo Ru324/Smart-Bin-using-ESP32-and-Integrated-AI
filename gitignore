@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+venv/
+.venv/
+env/
+
+# Secrets — NEVER commit your API key
+secrets.py
+config.py
+.env
+
+# Arduino / IDE build artifacts
+build/
+*.elf
+*.hex
+*.bin
+*.map
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset (large — link in README instead)
+dataset/
+*.zip
+*.tar.gz

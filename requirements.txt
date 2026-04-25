@@ -1,0 +1,6 @@
+# SmartBin — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+inference>=0.9.0       # Roboflow inference SDK
+opencv-python>=4.8.0   # Webcam capture + frame annotation
+pyserial>=3.5          # UART communication with ESP32
