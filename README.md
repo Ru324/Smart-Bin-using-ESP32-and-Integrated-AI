@@ -1,4 +1,4 @@
-# 🗑️ SmartBin — Automated AI Waste Classifier using ESP32
+#  SmartBin — Automated AI Waste Classifier using ESP32
 
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-ESP32-blue?style=for-the-badge&logo=espressif" />
@@ -13,7 +13,7 @@
 
 ---
 
-## 👥 Team Members
+##  Team Members
 
 | Name | Registration No. |
 |------|-----------------|
@@ -24,7 +24,7 @@
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 **SmartBin** is an IoT-enabled, AI-powered waste management system built around the **ESP32 microcontroller**. It eliminates passive waste disposal by automatically classifying waste into three categories — **Recyclable**, **Non-Recyclable**, and **E-Waste** — and physically directing it to the correct bin compartment via servo-actuated flaps.
 
@@ -38,7 +38,7 @@ Traditional bins are completely passive — they have no way of knowing what goe
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -78,7 +78,7 @@ Traditional bins are completely passive — they have no way of knowing what goe
 
 ---
 
-## 🧰 Hardware Components
+##  Hardware Components
 
 | Component | Spec | Role |
 |-----------|------|------|
@@ -102,7 +102,7 @@ ESP32 GND     ──────── All Servo GNDs
 
 ---
 
-## 🤖 AI Model
+##  AI Model
 
 - **Platform:** Roboflow Hosted Inference
 - **Model ID:** `waste-classifier-3himj/2`
@@ -124,11 +124,11 @@ ESP32 GND     ──────── All Servo GNDs
 
 > Labelled images across all three categories, captured under varied lighting conditions to improve model generalization.
 
-📂 [Download Dataset from Google Drive](https://drive.google.com/file/d/1H8TTzF6n1n7X2CH8LvX7BQnGIqn2uip/view?usp=sharing)
+ [Download Dataset from Google Drive](https://drive.google.com/file/d/1H8TTzF6n1n7X2CH8LvX7BQnGIqn2uip/view?usp=sharing)
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 smartbin-esp32/
@@ -145,7 +145,7 @@ smartbin-esp32/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -190,7 +190,7 @@ The live webcam window opens. Hold an object in front of the camera — the syst
 
 ---
 
-## 📊 Performance Observations
+##  Performance Observations
 
 | Test Object | Classification | Result |
 |-------------|---------------|--------|
@@ -204,7 +204,7 @@ The **3-second stability window** was the single most impactful design decision 
 
 ---
 
-## ⚠️ Known Limitations
+##  Known Limitations
 
 | Limitation | Description |
 |-----------|-------------|
@@ -217,7 +217,7 @@ The **3-second stability window** was the single most impactful design decision 
 
 ---
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - [ ] Replace Roboflow API with **TFLite model on ESP32-CAM** for fully offline operation
 - [ ] Add **HC-SR04 ultrasonic sensors** per compartment for fill-level monitoring
@@ -229,7 +229,7 @@ The **3-second stability window** was the single most impactful design decision 
 
 ---
 
-## 🔌 MPMC Concepts Demonstrated
+##  MPMC Concepts Demonstrated
 
 This project is a practical demonstration of core MPMC concepts:
 
@@ -243,10 +243,8 @@ This project is a practical demonstration of core MPMC concepts:
 
 ---
 
-## 📄 License
-
 This project is submitted as an academic course project at VIT Vellore. Code is open for educational reference.
 
 ---
 
-<p align="center">Made with ☕ and cardboard at VIT Vellore</p>
+<p align="center">Made with electronic components and cardboard at VIT Vellore</p>
